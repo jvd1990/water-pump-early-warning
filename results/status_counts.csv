@@ -1,0 +1,4 @@
+machine_status,count
+NORMAL,205836
+RECOVERING,14477
+BROKEN,7

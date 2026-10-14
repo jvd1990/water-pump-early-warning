@@ -1,0 +1,68 @@
+{
+  "shape": [
+    220320,
+    55
+  ],
+  "statuses": {
+    "NORMAL": 205836,
+    "RECOVERING": 14477,
+    "BROKEN": 7
+  },
+  "failures": [
+    "2018-04-12 21:55:00",
+    "2018-04-18 00:30:00",
+    "2018-05-19 03:18:00",
+    "2018-05-25 00:30:00",
+    "2018-06-28 22:00:00",
+    "2018-07-08 00:11:00",
+    "2018-07-25 14:00:00"
+  ],
+  "dropped_sensors": [
+    "sensor_15"
+  ],
+  "top_sensors": [
+    "sensor_28",
+    "sensor_22",
+    "sensor_33",
+    "sensor_20",
+    "sensor_21"
+  ],
+  "dropped_index_columns": [
+    "Unnamed: 0"
+  ],
+  "split_rows": {
+    "train": 80425,
+    "validation": 40200,
+    "test": 82331
+  },
+  "split_positives": {
+    "train": 5760,
+    "validation": 1440,
+    "test": 2880
+  },
+  "test": {
+    "accuracy": 0.034980748442263544,
+    "precision": 0.034980748442263544,
+    "recall": 1.0,
+    "f1": 0.06759690650268158,
+    "average_precision": 0.2263358650561994,
+    "roc_auc": 0.89948276558298,
+    "confusion_matrix": [
+      [
+        0,
+        79451
+      ],
+      [
+        0,
+        2880
+      ]
+    ],
+    "threshold": 0.05,
+    "test_events": 2,
+    "detected_events": 2,
+    "false_alert_episodes": 1,
+    "false_alert_minutes": 79451,
+    "normal_exposure_days": 55.174305555555556,
+    "always_negative_accuracy": 0.9650192515577365
+  }
+}
